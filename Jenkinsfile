@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("build") {
             steps {
-                ehco "building the app"
+                echo "building the app"
 
             }
         }
