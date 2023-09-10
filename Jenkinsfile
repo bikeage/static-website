@@ -1,10 +1,11 @@
 pipeline {
-    agent any
+    agent 
 
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                ehco 'Building ${BUILD_ID}'
+
             }
         }
         stage('Test') {
