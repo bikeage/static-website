@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                ehco 'Building ${BUILD_ID}'
+                echo 'Building ${BUILD_ID}'
 
             }
         }
